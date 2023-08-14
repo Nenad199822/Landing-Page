@@ -24,3 +24,12 @@ body {
     background-color: #1f2937;
     color: white;
 }
+
+ul li {
+    list-style-type: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
