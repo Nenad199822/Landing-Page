@@ -3,27 +3,24 @@
     width: auto;
 }
 
-body {
-    margin: 0;
-}
-
 #logo {
     width: auto;
     height: 120px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .first-element {
     background-color: #1f2937;
-    width: 100%;
-    margin: 0;
-    color: #f9f2f8
-}
-
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #f9f2f8
+    color: white;
 }
