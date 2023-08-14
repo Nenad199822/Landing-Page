@@ -1,4 +1,9 @@
 #first-image {
     height: 425px;
-    width: 533px;
+    width: auto;
+}
+
+#logo {
+    width: auto;
+    height: 100px;
 }
