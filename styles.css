@@ -137,6 +137,16 @@ h6 {
 
 .quote {
     font-style: italic;
-    width: 260px;
+    width: 300px;
     font-size: 22px;
+}
+
+.quote-person {
+    display: flex;
+    padding-top: 100px;
+    font-size: 26px;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
 }
