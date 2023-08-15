@@ -6,6 +6,10 @@
 #logo {
     width: auto;
     height: 120px;
+    margin: 16px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
 }
 
 body {
@@ -16,7 +20,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -27,9 +31,19 @@ body {
 
 ul li {
     list-style-type: none;
+    padding-right: 32px;
+
 }
 
 li a {
     color: white;
     text-decoration: none;
+    font-size: 22px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 16px;
 }
