@@ -63,6 +63,8 @@ body {
 .first-element {
     background-color: #1f2937;
     color: white;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 ul li {
@@ -92,7 +94,7 @@ ul {
 }
 
 .second-element {
-    box-sizing: border-box;
+    width: 100%;
 }
 
 h1 {
@@ -110,4 +112,14 @@ h6 {
 .card {
     width: 150px;
     height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    width: 160px;
+    flex-wrap: wrap;
 }
