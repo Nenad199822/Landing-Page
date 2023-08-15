@@ -42,11 +42,16 @@
     align-items: center;
 }
 
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -84,14 +89,15 @@ ul {
     justify-content: space-around;
     margin: auto;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .second-element {
     box-sizing: border-box;
 }
 
-#models {
+h1 {
+    display: flex;
     font-size: 36px;
     font-weight: bolder;
+    justify-content: center;
 }
