@@ -29,6 +29,7 @@
     height: auto;
     width: 520px;
     font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -41,9 +42,7 @@
     align-items: center;
 }
 
-p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 body {
     display: flex;
@@ -123,6 +122,21 @@ h6 {
 .info {
     width: 160px;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: left;
     letter-spacing: 1.5px;
+}
+
+.third-element {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+    height: 400px;
+}
+
+.quote {
+    font-style: italic;
+    width: 260px;
+    font-size: 22px;
 }
