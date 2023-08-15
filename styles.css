@@ -117,6 +117,7 @@ h6 {
 .container {
     display: flex;
     justify-content: space-around;
+
 }
 
 .info {
@@ -177,5 +178,7 @@ h6 {
     justify-content: center;
     background-color: #1f2937;
     color: white;
+    font-size: 10px;
+    padding: 20px;
 
 }
