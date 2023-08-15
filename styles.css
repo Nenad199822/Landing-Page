@@ -12,7 +12,7 @@
     width: 115px;
     height: 35px;
     border-radius: 10px;
-    background-color: rgb(53, 102, 238);
+    background-color: #3882f6;
     border: none;
     color: white;
 }
@@ -85,4 +85,13 @@ ul {
     margin: auto;
     width: 100%;
     box-sizing: border-box;
+}
+
+.second-element {
+    box-sizing: border-box;
+}
+
+#models {
+    font-size: 36px;
+    font-weight: bolder;
 }
