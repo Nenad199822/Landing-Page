@@ -1,8 +1,14 @@
 #first-image {
-    height: 350px;
-    width: auto;
+    height: 400px;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 80px;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.first-second-text {
+    padding-left: 200px;
 }
 
 .big-text {
