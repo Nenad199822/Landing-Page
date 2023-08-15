@@ -5,10 +5,15 @@
     justify-content: space-around;
 }
 
+.big-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
 .small-text {
-    border: 5px solid white;
     height: auto;
     width: 520px;
+    font-size: 18px;
 }
 
 
