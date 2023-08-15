@@ -1,10 +1,11 @@
 #first-image {
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: space-around;
     padding-bottom: 80px;
     align-items: center;
-    padding-right: 200px;
+    padding-right: 100px;
+    max-width: 100%;
 }
 
 .first-second-text {
@@ -36,6 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: auto;
 }
 
 .header {
@@ -71,4 +73,7 @@ ul {
 .first-part {
     display: flex;
     justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
