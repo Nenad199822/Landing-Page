@@ -1,7 +1,16 @@
 #first-image {
-    height: 425px;
+    height: 350px;
     width: auto;
+    display: flex;
+    justify-content: space-around;
 }
+
+.small-text {
+    border: 5px solid white;
+    height: auto;
+    width: 520px;
+}
+
 
 #logo {
     width: auto;
@@ -45,5 +54,10 @@ ul {
     display: flex;
     align-items: center;
     margin: 0;
-    gap: 16px;
+    gap: 32px;
+}
+
+.first-part {
+    display: flex;
+    justify-content: space-around;
 }
